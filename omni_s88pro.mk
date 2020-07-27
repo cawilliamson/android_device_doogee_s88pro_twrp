@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := RMX1821
+PRODUCT_RELEASE_NAME := s88pro
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)

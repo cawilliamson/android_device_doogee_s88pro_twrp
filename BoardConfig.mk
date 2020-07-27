@@ -1,5 +1,5 @@
 # Device path
-LOCAL_PATH := device/realme/RMX1821
+LOCAL_PATH := device/doogee/s88pro
 
 # Architecture
 TARGET_ARCH := arm64
@@ -36,7 +36,7 @@ BOARD_MKBOOTIMG_ARGS := --base 0x40078000 --ramdisk_offset 0x14f88000 --second_o
 # system.prop
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
-#Partitions
+# Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 33554432
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4

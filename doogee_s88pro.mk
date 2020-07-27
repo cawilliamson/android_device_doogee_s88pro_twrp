@@ -8,11 +8,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_BRAND := Realme
-PRODUCT_DEVICE := RMX1821
-PRODUCT_MANUFACTURER := Realme
-PRODUCT_MODEL := RMX1821
-PRODUCT_NAME := omni_RMX1821
+PRODUCT_BRAND := DOOGEE
+PRODUCT_DEVICE := S88Pro
+PRODUCT_MANUFACTURER := DOOGEE
+PRODUCT_MODEL := S88Pro
+PRODUCT_NAME := S88Pro_EEA
 
 # enable stock zip packages flash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

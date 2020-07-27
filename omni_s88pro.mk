@@ -9,7 +9,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := DOOGEE
-PRODUCT_DEVICE := S88Pro
+PRODUCT_DEVICE := s88pro
 PRODUCT_MANUFACTURER := DOOGEE
 PRODUCT_MODEL := S88Pro
 PRODUCT_NAME := omni_s88pro
